@@ -1,8 +1,5 @@
 from Calculator import *
 
-def test_test():
-    assert testFunction()==0
-
 def test_validity():
     assert checkIfValid("345+23-123*63463-23123") == True
     assert checkIfValid("-123-1") == True
