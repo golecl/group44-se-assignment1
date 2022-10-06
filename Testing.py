@@ -1,4 +1,4 @@
-from Calculator import testFunction
+from Calculator import *
 
 def test_subtraction():
     assert calculate("23-23") == 0
