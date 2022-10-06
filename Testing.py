@@ -1,4 +1,4 @@
-from Calculator import testFunction
+from Calculator import *
 
 def test_addition():
     assert calculate("2+2") == 4
