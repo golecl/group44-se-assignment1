@@ -1,6 +1,5 @@
 
-from Calculator import testFunction
-
+from Calculator import *
 def test_calculate():
     assert calculate("2+2") == 4
     assert calculate("4-2") == 2
