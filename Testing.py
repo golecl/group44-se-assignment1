@@ -1,4 +1,4 @@
-from Calculator import testFunction
+from Calculator import *
 
 def test_Calculator():
     assert Calculator("abcd") == "Sorry, this input is invalid"
