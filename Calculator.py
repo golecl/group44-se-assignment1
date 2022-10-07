@@ -65,7 +65,7 @@ def Calculator(string):
     else:
         print("Sorry, this input is invalid, please input the correct format.")
         # returns the message for test purposes
-        return "Sorry, this input is invalid, please input the correct format."
+        return "Sorry, this input is invalid"
 
 def main():
     while True:
