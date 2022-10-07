@@ -1,4 +1,3 @@
-
 from Calculator import *
 
 def test_validity():
