@@ -1,7 +1,7 @@
 import re
 
-print("Welcome to the simple math expression calculator")
-print("Type quit to exit\n")
+print("Hello, Welcome to the simple math expression calculator. :)")
+print("Type quit to exit the program.\n")
 s = list(range(0,10))
 Integer = ' '.join(map(str, s))
 length = len(Integer)
@@ -63,15 +63,15 @@ def Calculator(string):
         # returns the message for test purposes
         return "The answer is {}".format(answer)
     else:
-        print("Sorry, this input is invalid")
+        print("Sorry, this input is invalid, please input the correct format.")
         # returns the message for test purposes
-        return "Sorry, this input is invalid"
+        return "Sorry, this input is invalid, please input the correct format."
 
 def main():
     while True:
-        equ = input("Enter equation : ") 
+        equ = input("Enter the math equation : ") 
         if equ == 'quit':
-           print("GoodBye, Hope you enjoy the calculation.")
+           print("GoodBye, Hope you enjoy the calculation. Have a good day.")
            break
         else:
             Calculator(equ)
