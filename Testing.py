@@ -1,5 +1,5 @@
 from Calculator import *
-
+    
 def test_validity():
     assert checkIfValid("345+23-123*63463-23123") == True
     assert checkIfValid("-123-1") == True
@@ -31,3 +31,10 @@ def test_addition():
     assert calculate("324234+234+123") == 324591
     assert calculate("23+12*2") == 47
     assert calculate("23-12+3") == 14
+
+def test_subtraction():
+    assert calculate("23-23") == 0
+    assert calculate("23-23-1") == -1
+    assert calculate("-23-3") == -26
+    assert calculate("23-23*2") == -23
+    assert calculate("23+2-5") == 20
